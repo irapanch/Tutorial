@@ -1,99 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	        <!-- ========= header mobile MODAL  ============ -->
-  
-			<div class="header-mobile-modal js-menu-container" id="mobile-menu">
-				<div class="header-mobile-modal-container">
-				  <button
-					type="button"
-					class="header-mobile-modal-btn-close js-close-menu"
-				  >
-					<svg class="header-mobile-modal-btn-icon" width="8" height="8">
-					  <use href="./images/icons.svg#icon-close-modal"></use>
-					</svg>
-				  </button>
-				  <div class="header-mobile-modal-wripper">
-					<ul class="header-mobile-modal-menu-list list">
-					<li class="mobile-modal-menu-item">
-					  <a
-						class="mobile-modal-menu-link underline link"
-						href="./index.html"
-						>Studio</a
-					  >
-					</li>
-					<li class="mobile-modal-menu-item">
-					  <a class="mobile-modal-menu-link link" href="./portfolio.html"
-						>Portfolio</a
-					  >
-					</li>
-					<li class="mobile-modal-menu-item">
-					  <a class="mobile-modal-menu-link link" href="">Contacts</a>
-					</li>
-					</ul>
-					<div class="header-mobile-modal-wripper-bottom">
-					  <!-- ===== header ADDRESS modal===== -->
-					  <address class="header-mobile-modal-contacts-menu">
-						<ul class="header-mobile-modal-contacts-list list">
-					  <li class="header-mobile-modal-contacts-item">
-						<a
-						  class="header-mobile-modal-contacts-link link"
-						  href="tel:+110001111111"
-						  >+11 (000) 111-11-11</a
-						>
-					  </li>
-					  <li class="header-mobile-modal-contacts-item">
-						<a
-						  class="header-mobile-modal-contacts-link link"
-						  href="mailto:info@devstudio.com"
-						  >info@devstudio.com</a
-						>
-					  </li>
-						</ul>
-					  </address>
-					  <!-- =====///  header ADDRESS modal===== -->
-	  
-					  <!--  ==== header modal SOCIAL===== -->
-					  <ul class="header-mobile-modal-icon-list list">
-						  <li class="header-mobile-modal-icon-item">
-							<a class="header-mobile-modal-icon-link link" href="">
-							  <svg class="header-mobile-modal-icon" width="24" height="24">
-								<use href="./images/icons.svg#icon-instagram-1"></use>
-							  </svg>
-							</a>
-						  </li>
-						  <li class="header-mobile-modal-icon-item">
-							<a class="header-mobile-modal-icon-link link" href="">
-							  <svg class="header-mobile-modal-icon" width="24" height="24">
-								<use href="./images/icons.svg#icon-twitter-1"></use>
-							  </svg>
-							</a>
-						  </li>
-						  <li class="header-mobile-modal-icon-item">
-							<a class="header-mobile-modal-icon-link link" href="">
-							  <svg class="header-mobile-modal-icon" width="24" height="24">
-								<use href="./images/icons.svg#icon-facebook-1"></use>
-							  </svg>
-							</a>
-						  </li>
-						  <li class="header-mobile-modal-icon-item">
-							<a class="header-mobile-modal-icon-link link" href="">
-							  <svg class="header-mobile-modal-icon" width="24" height="24">
-								<use href="./images/icons.svg#icon-linkedin-1"></use>
-							  </svg>
-							</a>
-						  </li>
-					  </ul>
-							<!--  ==== /// header modal SOCIAL===== -->
-					</div>
-				</div>
-				</div>
-			  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./stylte.css" />
+  </head>
+  <body>
+    <!-- mobile MODAL -->
+    <div class="modal-mobile">
+      <div class="modal-mobile-container">
+        <a class="modal-logo-link link" href="">
+          <svg class="modal-logo-icon" width="24" height="24">
+            <use href="/src/img/ svg/logo-mobile.svg"></use></svg
+          >yaht Adventures
+        </a>
+        <button type="button" class="modal-mobile-btn-close js-close-menu">
+          <svg class="modal-mobile-btn-icon" width="24" height="24">
+            <use href="/src/img/svg/icons.svg#icon-modal-close"></use>
+          </svg>
+        </button>
+        <ul class="modal-mobile-menu-list list">
+          <li class="modal-mobile-menu">
+            <p class="modal-mobile-text">About</p>
+          </li>
+          <li class="modal-mobile-menu">
+            <p class="modal-mobile-text">Yahts</p>
+          </li>
+          <li class="modal-mobile-menu">
+            <p class="modal-mobile-text">Reviews</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
